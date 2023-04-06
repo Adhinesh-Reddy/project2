@@ -1,0 +1,29 @@
+.rentContainer{
+    width: 100%;
+    display: flex;
+    
+}
+
+.sidenavbar{
+    width:30%;
+    background-color: purple;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+  }
+  .box>* {
+      flex: 0 0 25%;
+  }
+
+  .card{
+    /* width: 20px; */
+    margin: 0 10px;
+  }
+  .card-img-top{
+    height: 60%;
+    /* width: 10%; */
+  }

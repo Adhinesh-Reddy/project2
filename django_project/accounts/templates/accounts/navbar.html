@@ -1,0 +1,14 @@
+{% load static%}
+<div class="navbar">
+  <a href="{% url 'home' %}" class="logo"><img src="{% static 'images/logo.webp' %}" alt="Logo"></a>
+  
+  <div class="nav-items">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'rent' %}">Rent/Buy</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="{% url 'profile'%}">Profile</a>
+    <a href="{% url 'logout'%}">Login</a>
+    <!-- <p>Hello, {{request.user}}</p> -->
+  </div>
+</div>
